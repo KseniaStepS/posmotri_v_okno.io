@@ -107,13 +107,11 @@ ol {
 }
 
 .content__video-card-description {
-  line-height: 0.9;
-  visibility: hidden;
+  display: none;
 }
 
-.content__video-card-description::before {
-  content: 'Вот, что видит кто-то из команды Практикума, когда не смотрит на код, а смотрит в окно. ';
-  visibility: visible;
+.content__video-card-description-visible {
+  line-height: 0.9;
 }
 
 .content__video-card-title {
